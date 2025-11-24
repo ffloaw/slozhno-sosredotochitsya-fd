@@ -1,0 +1,97 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100vh;
+  min-height: 668px;
+  margin: 10px 10px 5px 10px;
+}
+
+.header__theme-menu {
+  justify-self: end;
+  align-self: center;
+}
+
+.header__theme-menu-list {
+  display: grid;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.decorative_element {
+  position: absolute;
+  justify-self: right;
+  font-family: var(--main-font), sans-serif;
+  font-weight: var(--font-weight-400);
+  font-style: var(--font-style-regular);
+  font-size: 18px;
+  line-height: 25px;
+  text-align: right;
+  right: 28px;
+  color: var(--accent-color);
+}
+
+
+.decorative_element::after {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  left: calc(100% + 10px);
+  background-color: rgba(255, 0, 112, 1);
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 0 0 4px 2px rgba(255, 0, 112, 1);
+}
+
+
+.header_title {
+  font-family: var(--main-font), sans-serif;
+  font-weight: var(--font-weight-700);
+  font-style: var(--font-style-bold);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 83%;
+  letter-spacing: 0%;
+  color: var(--big-title-color);
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.header_description_text {
+  margin-top: 35px;
+  font-family: var(--main-font), sans-serif;
+  font-weight: var(--font-weight-700);
+  font-style: var(--font-style-bold);
+  font-size: 18px;
+  line-height: 23.4px;
+}
+
+.header__theme-menu-button {
+  font-family: var(--main-font), sans-serif;
+  font-weight: var(--font-weight-400);
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: lowercase;
+  color: var(--accent-color);
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid rgba(255, 0, 111, 0.4);
+
+}
+
+.header__theme-menu-button:focus-visible {
+  outline: none;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px;
+  text-underline-offset: 2px;
+}
+
+.header__theme-menu-button:active {
+  border: 1px solid rgba(255, 0, 112, 1);
+}

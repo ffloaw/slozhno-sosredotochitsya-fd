@@ -1,0 +1,21 @@
+.section_concentrate {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr max-content;
+  gap: 20px;
+}
+
+.concentrate_title {
+  font-weight: var(--font-weight-700);
+  font-style: var(--font-style-bold);
+  font-size: var(--main-font-size);
+  color: var(--accent-color);
+  line-height: 23.4px;
+  letter-spacing: 0%;
+  padding-block-start: 40px;
+}
+
+.section_concentrate > :last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
