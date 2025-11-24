@@ -1,7 +1,4 @@
-.card_list {
-  display: grid;
-  gap: 20px;
-}
+
 
 .card_text {
   font-family: var(--main-font), sans-serif;

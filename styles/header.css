@@ -1,14 +1,14 @@
 .header {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr min-content 1fr;
   height: 100vh;
   min-height: 668px;
   margin: 10px 10px 5px 10px;
 }
 
 .header__theme-menu {
-  justify-self: end;
+  justify-self: end;  
   align-self: center;
 }
 
