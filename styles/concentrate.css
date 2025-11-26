@@ -12,7 +12,7 @@
   color: var(--accent-color);
   line-height: 23.4px;
   letter-spacing: 0%;
-  padding-block-start: 40px;
+  padding-block-start: var(--padding-start);
   grid-column: 1 / -1;
 }
 

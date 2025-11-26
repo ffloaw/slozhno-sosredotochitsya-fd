@@ -1,0 +1,16 @@
+.section_images {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding-block-end: var(--padding-start);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.image_title {
+  margin-block-start: var(--padding);
+}

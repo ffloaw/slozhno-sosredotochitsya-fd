@@ -1,0 +1,45 @@
+footer {
+  height: 100vh;
+  min-height: 375px;
+  background-color: var(--bg-color-dark-theme);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  padding: 0 10px 0px 10px;
+}
+
+.footer_title {
+  font-family: var(--main-font), sans-serif;
+  font-weight: var(--font-weight-700);
+  font-style: var(--font-style-bold);
+  font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  line-height: 83%;
+  align-self: center;
+  justify-self: center;
+  letter-spacing: 0%;
+  color: var(--big-title-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
+  padding: 0 13px 0 14px;
+}
+
+footer.decorated-zone::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+}
+
+footer.decorated-zone::after {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  width: 25px;
+  height: 25px;
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+}

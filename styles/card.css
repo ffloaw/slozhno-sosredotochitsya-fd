@@ -18,7 +18,7 @@
   color: var(--accent-color);
   line-height: 23.4px;
   letter-spacing: 0%;
-  padding-block-start: 50px;
+  padding-block-start: var(--padding);
 }
 
 .card_title {
@@ -30,7 +30,7 @@
   letter-spacing: 0%;
 }
 
-.card_title_small {
+.card_text_small_size {
   font-family: var(--main-font), sans-serif;
   font-weight: var(--font-weight-400);
   font-style: var(--font-style-regular);
