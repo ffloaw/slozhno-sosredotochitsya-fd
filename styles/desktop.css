@@ -1,0 +1,7 @@
+@media (min-width: 1024px) {
+  .header_description {
+    justify-self: end;
+    align-self: center;
+    min-width: 491px;
+  }
+}

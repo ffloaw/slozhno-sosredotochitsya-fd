@@ -14,3 +14,35 @@
 .image_title {
   margin-block-start: var(--padding);
 }
+
+@media (min-width: 768px) {
+  .section_images {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .image_title {
+    grid-column: 1 / 4;
+  }
+
+  .image_sunset {
+    grid-column: 1 / 3;
+  }
+
+  .image_ice-cream {
+    align-self: stretch;
+    grid-column: 3;
+    grid-row: 2 / 4;
+  }
+
+  .image_tape {
+    align-self: stretch;
+    grid-column: 1;
+    grid-row: 3 / 5;
+  }
+
+  .image_street {
+    grid-column: 2 / 4;
+
+  }
+}

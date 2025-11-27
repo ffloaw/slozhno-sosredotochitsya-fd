@@ -4,3 +4,30 @@
   grid-template-rows: min-content auto auto auto auto;
   gap: 20px;
 }
+
+.title_on-small {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .section_title {
+    padding: 0;
+  }
+
+  .section_advice {
+    grid-template-columns: minmax(236px, 1fr) minmax(472px, 2fr);
+    grid-template-rows: auto auto auto auto auto;
+    --padding: 80px;
+    padding-block-start: var(--padding);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .section_advice .section_title {
+    grid-column: 1;
+  }
+
+  .section_advice .card {
+    grid-column: 2;
+  }
+}

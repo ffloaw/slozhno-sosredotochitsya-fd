@@ -1,0 +1,39 @@
+@media (min-width: 768px) {
+  .header_description {
+    justify-self: end;
+    align-self: center;
+    min-width: 364px;
+  }
+
+  .section_concentrate {
+    display: grid;
+    grid-template-columns: minmax(236px, 1fr) minmax(472px, 2fr);
+    grid-template-rows: auto ;
+    --padding-start: 60px;
+    padding-block-start: var(--padding-start);
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+
+  .section_concentrate .concentrate_title {
+    grid-column: 1;
+    grid-row: 1 / -1;
+  }
+
+  .section_concentrate .card {
+    grid-column: 2;
+  }
+
+  .section_attention .section_title {
+    max-width: 18ch;
+  }
+
+  .section_attention {
+    --padding: 80px;
+    padding-block-start: var(--padding);
+  }
+
+  .section_image {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

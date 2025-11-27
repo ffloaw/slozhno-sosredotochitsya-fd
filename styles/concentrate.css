@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: min-content 1fr 1fr;
+  padding-block-start: var(--padding-start);
   gap: 20px;
 }
 
@@ -12,15 +13,23 @@
   color: var(--accent-color);
   line-height: 23.4px;
   letter-spacing: 0%;
-  padding-block-start: var(--padding-start);
   grid-column: 1 / -1;
 }
 
-.section_concentrate .card_list {
-  display: contents;
-}
+@media (min-width: 768px) {
+  .section_concentrate {
+    grid-template-columns: minmax(236px, 1fr) minmax(472px, 2fr);
+    grid-template-rows: auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
 
-.section_concentrate > :last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
+  .section_concentrate .concentrate_title {
+    grid-column: 1;
+    grid-row: 1 / -1;
+  }
+
+  .section_concentrate .card {
+    grid-column: 2;
+  }
 }

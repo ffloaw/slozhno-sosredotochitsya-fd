@@ -4,3 +4,14 @@
   grid-template-rows: min-content 1fr 1fr;
   gap: 20px;
 }
+
+@media (min-width: 768px) {
+  .section_title {
+    padding: 0;
+  }
+
+  .section_attention {
+    --padding: 80px;
+    padding-block-start: var(--padding);
+  }
+}
