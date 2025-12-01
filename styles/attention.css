@@ -15,3 +15,18 @@
     padding-block-start: var(--padding);
   }
 }
+
+@media (min-width: 1024px) {
+  .section_attention {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: max-content 1fr;
+  }
+
+  .section_attention .card {
+    grid-row: 2;
+  }
+
+  .section_attention .section_title {
+    
+  }
+}
