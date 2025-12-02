@@ -10,7 +10,7 @@
   font-weight: var(--font-weight-700);
   font-style: var(--font-style-bold);
   font-size: var(--main-font-size);
-  color: var(--accent-color);
+  color: var(--section-title-color);
   line-height: 23.4px;
   letter-spacing: 0%;
   grid-column: 1 / -1;

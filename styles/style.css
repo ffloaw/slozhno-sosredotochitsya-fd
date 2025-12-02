@@ -9,7 +9,7 @@
 }
 
 .title-decor {
-  color: var(--bg-color-dark-theme);
+  color: var(--title-color);
   background-color: var(--accent-color);
 }
 
@@ -24,8 +24,8 @@
   right: 0;
   width: 25px;
   height: 25px;
-  border-top: 1px solid var(--accent-color);
-  border-right: 1px solid var(--accent-color);
+  border-top: 1px solid var(--decoration-color);
+  border-right: 1px solid var(--decoration-color);
 }
 
 .decorated-zone::after {
@@ -35,8 +35,8 @@
   left: 0;
   width: 25px;
   height: 25px;
-  border-bottom: 1px solid var(--accent-color);
-  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--decoration-color);
+  border-left: 1px solid var(--decoration-color);
 }
 
 .base_section {

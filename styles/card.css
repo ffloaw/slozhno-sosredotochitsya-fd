@@ -15,7 +15,7 @@
   font-weight: var(--font-weight-700);
   font-style: var(--font-style-bold);
   font-size: var(--main-font-size);
-  color: var(--accent-color);
+  color: var(--section-title-color);
   line-height: 23.4px;
   letter-spacing: 0%;
   padding-block-start: var(--padding);
@@ -46,7 +46,7 @@
 
 .text_link {
   text-decoration: none;
-  text-shadow: 2px 2px rgba(255, 0, 112, 1);
+  text-shadow: 2px 2px var(--accent-color);
 }
 
 

@@ -77,25 +77,25 @@
   font-size: 18px;
   line-height: 18px;
   text-transform: lowercase;
-  color: var(--accent-color);
+  color: var(--button-color);
   background-color: transparent;
+  padding: 2px 13px;
   border: 1px solid transparent;
-  padding: 0;
   text-align: center;
   cursor: pointer;
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid rgba(255, 0, 111, 0.4);
+  border-color: rgba(255, 0, 111, 0.4);
 }
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom-color: var(--button-color); /* низ уже есть, меняем цвет */
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color);
+  border-color: var(--button-color);
   pointer-events: none;
 }
 
@@ -104,6 +104,10 @@
     justify-self: end;
     align-self: center;
     width: 364px;
+  }
+
+  .header_title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
 
@@ -118,6 +122,10 @@
     height: 71px;
     width: 491px;
     margin-bottom: 120px;
+  }
+
+  .header_title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .header_description_text {
