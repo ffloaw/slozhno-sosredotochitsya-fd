@@ -1,0 +1,71 @@
+@media (min-width: 1024px) {
+  .base_section {
+    padding: 0 20px 0 20px;
+  }
+
+  .section_concentrate {
+    --padding-start: 60px;
+    padding-block-start: var(--padding-start);
+    padding-block-end: 0;
+  }
+
+  .section_attention {
+    --padding: 80px;
+    padding-block-start: var(--padding);
+    padding-block-end: 0;
+  }
+
+  .section_advice {
+    --padding: 80px;
+    padding-block-start: var(--padding);
+    padding-block-end: 0;
+  }
+
+  .section_images {
+    --padding: 80px;
+    padding-block-start: var(--padding);
+    --padding-start: 60px;
+    padding-block-end: var(--padding-start);
+  }
+
+  .section_concentrate .card {
+    margin-block-start: 0;
+  }
+
+  .section_attention .card {
+    margin-block-start: 0;
+  }
+
+  .section_advice .card {
+    margin-block-start: 0;
+  }
+
+  footer {
+    padding: 0 20px 0 20px;
+  }
+
+  footer.decorated-zone::before {
+    right: 20px;
+  }
+
+  footer.decorated-zone::after {
+    left: 20px;
+  }
+
+  .header {
+    margin: 20px 20px 5px 20px;
+  }
+
+  .decorated-zone::before {
+    right: 20px;
+  }
+
+  .decorated-zone::after {
+    left: 20px;
+  }
+
+  .decorative_element {
+    right: 38px;
+  }
+}
+

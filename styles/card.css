@@ -7,7 +7,6 @@
   font-size: var(--main-font-size);
   color: var(--text-color);
   line-height: 23.4px;
-  letter-spacing: 0%;
   margin-block-start: 10px;
 }
 
@@ -17,7 +16,6 @@
   font-size: var(--main-font-size);
   color: var(--section-title-color);
   line-height: 23.4px;
-  letter-spacing: 0%;
   padding-block-start: var(--padding);
 }
 
@@ -27,7 +25,6 @@
   font-style: var(--font-style-bold);
   font-size: var(--main-font-size);
   line-height: 23.4px;
-  letter-spacing: 0%;
 }
 
 .card_text_small_size {
@@ -36,7 +33,6 @@
   font-style: var(--font-style-regular);
   font-size: var(--main-font-size);
   line-height: 23.4px;
-  letter-spacing: 0%;
 }
 
 .title_list {

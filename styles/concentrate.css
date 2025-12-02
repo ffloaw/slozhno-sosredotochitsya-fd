@@ -12,7 +12,6 @@
   font-size: var(--main-font-size);
   color: var(--section-title-color);
   line-height: 23.4px;
-  letter-spacing: 0%;
   grid-column: 1 / -1;
 }
 

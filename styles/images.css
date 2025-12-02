@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
+  padding-block-start: var(--padding);
   padding-block-end: var(--padding-start);
 }
 
@@ -19,6 +20,7 @@
   .section_images {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    padding-block-start: var(--padding);
   }
 
   .image_title {
@@ -43,6 +45,5 @@
 
   .image_street {
     grid-column: 2 / 4;
-
   }
 }
