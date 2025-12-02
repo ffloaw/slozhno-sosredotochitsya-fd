@@ -43,6 +43,11 @@
     grid-row: 3 / 5;
   }
 
+  .image_books {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
   .image_street {
     grid-column: 2 / 4;
   }

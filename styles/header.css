@@ -8,7 +8,7 @@
 }
 
 .header__theme-menu {
-  justify-self: end;  
+  justify-self: end;
   align-self: center;
 }
 
@@ -133,6 +133,8 @@
     height: 71px;
     overflow-wrap: break-word;
     overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     line-clamp: 3;
   }
