@@ -4,7 +4,7 @@
   grid-template-rows: 1fr min-content 1fr;
   height: 100vh;
   min-height: 668px;
-  margin: 10px 10px 5px 10px;
+  margin: 0 10px 5px 10px;
 }
 
 .header__theme-menu {
@@ -32,9 +32,9 @@
 }
 
 
-.header_description {
+div.header_description {
   width: 355px;
-  height: 117px;
+  min-height: 117px;
 }
 
 .decorative_element::after {
