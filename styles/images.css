@@ -18,8 +18,7 @@
     --padding: 80px;
     padding-block-start: var(--padding);
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding-block-start: var(--padding);
+    gap: 20px;  
   }
 
   .image_title {
