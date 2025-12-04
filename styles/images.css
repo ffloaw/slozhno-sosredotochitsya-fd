@@ -12,9 +12,6 @@
   object-fit: cover;
 }
 
-.image_title {
-  margin-block-start: var(--padding);
-}
 
 @media (min-width: 768px) {
   .section_images {

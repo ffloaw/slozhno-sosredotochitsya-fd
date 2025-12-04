@@ -16,7 +16,6 @@ footer {
   line-height: 83%;
   align-self: center;
   justify-self: center;
-  letter-spacing: 0%;
   color: var(--big-title-color);
   text-shadow: 2px 2px 0 var(--accent-color);
   padding: 0 13px 0 14px;
