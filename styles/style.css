@@ -1,11 +1,11 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+  background-color: var(--bg-color-dark-theme);
   background-image: var(--bg-image-dark-theme);
   background-position: center;
-  background-attachment: fixed;
   background-size: cover;
-  background-color: var(--bg-color-dark-theme);
+  background-attachment: fixed;
 }
 
 .title-decor {
@@ -40,9 +40,9 @@
 }
 
 .base_section {
-  background-color: var(--bg-color-dark-theme);
-  font-family: var(--main-font);
   padding: 0 10px 0 10px;
+  font-family: var(--main-font);
+  background-color: var(--bg-color-dark-theme);
 }
 
 @media (min-width: 768px) {

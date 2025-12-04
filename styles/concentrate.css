@@ -25,7 +25,6 @@
     row-gap: 20px;
   }
 
-
   .section_concentrate .concentrate_title {
     grid-column: 1;
     grid-row: 1 / -1;

@@ -16,9 +16,9 @@
 @media (min-width: 768px) {
   .section_images {
     --padding: 80px;
-    padding-block-start: var(--padding);
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;  
+    gap: 20px;
+    padding-block-start: var(--padding);
   }
 
   .image_title {
@@ -30,15 +30,15 @@
   }
 
   .image_ice-cream {
-    align-self: stretch;
     grid-column: 3;
     grid-row: 2 / 4;
+    align-self: stretch;
   }
 
   .image_tape {
-    align-self: stretch;
     grid-column: 1;
     grid-row: 3 / 5;
+    align-self: stretch;
   }
 
   .image_books {

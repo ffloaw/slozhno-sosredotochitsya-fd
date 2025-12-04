@@ -1,24 +1,24 @@
 footer {
-  height: 100vh;
-  min-height: 375px;
-  background-color: var(--bg-color-dark-theme);
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
+  height: 100vh;
+  min-height: 375px;
   padding: 0 20px 20px 20px;
+  background-color: var(--bg-color-dark-theme);
 }
 
 .footer_title {
+  justify-self: center;
+  align-self: center;
+  padding: 0 13px 0 14px;
+  color: var(--big-title-color);
   font-family: var(--main-font), sans-serif;
   font-weight: var(--font-weight-700);
-  font-style: var(--font-style-bold);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  font-style: var(--font-style-bold);
   line-height: 83%;
-  align-self: center;
-  justify-self: center;
-  color: var(--big-title-color);
   text-shadow: 2px 2px 0 var(--accent-color);
-  padding: 0 13px 0 14px;
 }
 
 footer.decorated-zone::before {

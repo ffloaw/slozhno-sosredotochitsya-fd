@@ -40,7 +40,7 @@
 
   .section_attention .section_title {
     grid-column: 1;
-    max-width: none;
     width: 100%;
+    max-width: none;
   }
 }
