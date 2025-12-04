@@ -5,7 +5,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  padding: 0 10px 0px 10px;
+  padding: 0 20px 20px 20px;
 }
 
 .footer_title {
@@ -41,4 +41,20 @@ footer.decorated-zone::after {
   height: 25px;
   border-bottom: 1px solid var(--button-color);
   border-left: 1px solid var(--button-color);
+}
+
+@media (min-width: 768px) {
+  footer.decorated-zone::before {
+    top: 19px;
+    right: 20px;
+  }
+
+  footer.decorated-zone::after {
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .footer_title {
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  }
 }

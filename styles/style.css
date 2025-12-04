@@ -49,5 +49,14 @@
     .decorated-zone::before {
     top: 0px;
   }
+
+  .decorated-zone::after {
+    bottom: 40px;
+    left: 20px;
+  }
+
+  .base_section {
+    padding: 0px 20px 0px 20px;
+  }
 }
 

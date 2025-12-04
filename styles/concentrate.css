@@ -19,9 +19,12 @@
   .section_concentrate {
     grid-template-columns: minmax(236px, 1fr) minmax(472px, 2fr);
     grid-template-rows: auto auto;
+    --padding-start: 40px;
+    padding-block-start: var(--padding-start);
     column-gap: 20px;
     row-gap: 20px;
   }
+
 
   .section_concentrate .concentrate_title {
     grid-column: 1;
