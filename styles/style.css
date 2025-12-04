@@ -20,7 +20,7 @@
 .decorated-zone::before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 10px;
   right: 0;
   width: 25px;
   height: 25px;

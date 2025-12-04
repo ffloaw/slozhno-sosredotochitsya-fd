@@ -15,7 +15,6 @@
 .header__theme-menu-list {
   display: grid;
   gap: 10px;
-  margin-right: 10px;
 }
 
 .decorative_element {
@@ -31,11 +30,6 @@
   color: var(--accent-color);
 }
 
-
-div.header_description {
-  width: 355px;
-  min-height: 117px;
-}
 
 .decorative_element::after {
   content: "";
@@ -57,13 +51,17 @@ div.header_description {
   font-style: var(--font-style-bold);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
-  letter-spacing: 0%;
   color: var(--big-title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
+  margin-bottom: 40px;
+}
+
+.header_description {
+  display: grid;
+  max-height: 117px;
 }
 
 .header_description_text {
-  margin-top: 35px;
   font-family: var(--main-font), sans-serif;
   font-weight: var(--font-weight-700);
   font-style: var(--font-style-bold);
