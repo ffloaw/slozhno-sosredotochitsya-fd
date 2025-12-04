@@ -4,7 +4,7 @@
   grid-template-rows: 1fr min-content 1fr;
   height: 100vh;
   min-height: 668px;
-  margin: 0 10px 5px 10px;
+  margin: 0px 10px;
 }
 
 .header__theme-menu {
@@ -53,12 +53,13 @@
   line-height: 83%;
   color: var(--big-title-color);
   text-shadow: 4px 4px 0 var(--accent-color);
-  margin-bottom: 40px;
 }
 
 .header_description {
   display: grid;
-  max-height: 117px;
+  height: 117px;
+  width: 355px;
+  margin-top: 40px;
 }
 
 .header_description_text {
@@ -102,15 +103,12 @@
     justify-self: end;
     align-self: center;
     width: 364px;
+    height: 117px;
   }
 
   .header_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-}
-
-.header_description_break {
-  display: none;
 }
 
 @media (min-width: 1024px) {
