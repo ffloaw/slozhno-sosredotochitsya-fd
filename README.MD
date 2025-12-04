@@ -1,1 +1,0 @@
-git@github.com:ffloaw/slozhno-sosredotochitsya-fd.git
