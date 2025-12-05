@@ -3,7 +3,7 @@
   grid-template-columns: 1fr;
   gap: 10px;
   padding-block-start: var(--padding);
-  padding-block-end: var(--padding-start);
+  padding-block-end: var(--padding-mobile);
 }
 
 .image {

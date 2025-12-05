@@ -2,10 +2,9 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: min-content auto auto auto auto;
-  gap: 20px;
 }
 
-.title_on-small {
+.section_advice .section_title {
   margin-bottom: 20px;
 }
 
@@ -17,17 +16,29 @@
   .section_advice {
     --padding: 80px;
     grid-template-columns: minmax(236px, 1fr) minmax(472px, 2fr);
-    grid-template-rows: auto auto auto auto auto;
-    row-gap: 20px;
-    column-gap: 20px;
+    grid-template-rows: auto ;
     padding-block-start: var(--padding);
   }
 
   .section_advice .section_title {
     grid-column: 1;
+    grid-row: 1;
+  }
+
+  .card_list {
+    grid-column: 2;
   }
 
   .section_advice .card {
     grid-column: 2;
+  }
+
+}
+
+
+@media (min-width: 1024px) {
+  .section_advice {
+    grid-template-columns: 1fr 2.06fr;
+    grid-template-rows: auto auto auto auto auto;
   }
 }

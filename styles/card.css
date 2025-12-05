@@ -1,7 +1,7 @@
 .card_text {
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font), monospace;
   font-weight: var(--font-weight-400);
-  font-style: var(--font-style-regular);
+  font-style: var(--font-style);
   font-size: var(--main-font-size);
   color: var(--text-color);
   line-height: 23.4px;
@@ -10,25 +10,30 @@
 
 .section_title {
   font-weight: var(--font-weight-700);
-  font-style: var(--font-style-bold);
+  font-style: var(--font-weight-bold);
   font-size: var(--main-font-size);
   color: var(--section-title-color);
   line-height: 23.4px;
   padding-block-start: var(--padding);
 }
 
+.card_list {
+  display: grid;
+  gap: 20px;
+}
+
 .card_title {
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font), monospace;
   font-weight: var(--font-weight-700);
-  font-style: var(--font-style-bold);
+  font-style: var(--font-weight-bold);
   font-size: var(--main-font-size);
   line-height: 23.4px;
 }
 
 .card_text_small_size {
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font), monospace;
   font-weight: var(--font-weight-400);
-  font-style: var(--font-style-regular);
+  font-style: var(--font-style);
   font-size: var(--main-font-size);
   line-height: 23.4px;
 }
@@ -44,9 +49,10 @@
 }
 
 .text_link:hover {
-  text-decoration: underline;
+  border: 1px solid var(--text-color);
 }
 
 .text_link:focus-visible {
-  border: 1px solid rgba(241, 178, 206, 1);
+  outline: none;
+  outline: 1px solid var(--text-color);
 }

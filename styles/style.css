@@ -31,7 +31,7 @@
 .decorated-zone::after {
   content: "";
   position: absolute;
-  bottom: 15px;
+  bottom: 10px;
   left: 0;
   width: 25px;
   height: 25px;
@@ -41,12 +41,13 @@
 
 .base_section {
   padding: 0 10px 0 10px;
-  font-family: var(--main-font);
-  background-color: var(--bg-color-dark-theme);
+  font-family: var(--main-font, monospace);
 }
 
+
+
 @media (min-width: 768px) {
-    .decorated-zone::before {
+  .decorated-zone::before {
     top: 0px;
   }
 
@@ -60,9 +61,8 @@
   }
 }
 
-@media (max-width: 375px) {
-  html,
-  body {
-    overflow-x: hidden;
+@media (min-width: 1024px) {
+  .decorated-zone::before {
+    top: 0px;
   }
 }

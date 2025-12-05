@@ -16,16 +16,12 @@
   --text-color: rgba(241, 178, 206, 1);
 }
 
+:root.theme-dark .decorative_element {
+  display: block;
+}
+
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg-image-dark-theme: url(../images/cover-image-dark.png);
-    --bg-color-dark-theme: rgba(0, 0, 40, 1);
-    --decoration-color: rgba(255, 0, 112, 1);
-    --button-color: rgba(255, 0, 112, 1);
-    --big-title-color: rgba(219, 0, 255, 1);
-    --title-color: rgba(0, 0, 40, 1);
-    --section-title-color: rgba(255, 0, 112, 1);
-    --accent-color: rgba(255, 0, 112, 1);
-    --text-color: rgba(241, 178, 206, 1);
+  .decorative_element {
+    display: block;
   }
 }

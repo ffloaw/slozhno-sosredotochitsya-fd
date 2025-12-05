@@ -22,18 +22,15 @@
   .header_description {
     justify-self: end;
     align-self: center;
-    min-width: 364px;
+    max-width: 364px;
   }
 
   .section_concentrate {
-    --padding-start: 60px;
-    display: grid;
     grid-template-columns: minmax(236px, 1fr) minmax(472px, 2fr);
-    grid-template-rows: auto ;
-    row-gap: 20px;
+    grid-template-rows: auto auto;
+    padding-block-start: var(--padding-start-mobile);
     column-gap: 20px;
-    padding-block-start: var(--padding-start);
-    padding-block-end: 0;
+    row-gap: 20px;
   }
 
   .section_concentrate .concentrate_title {
@@ -68,7 +65,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  footer {
+  .footer {
     padding: 0 20px 0 20px;
   }
 
