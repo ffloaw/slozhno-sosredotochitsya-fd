@@ -34,10 +34,6 @@
     --text-color: rgba(53, 52, 48, 1);
   }
 
-  .title-decor {
-    color: var(--text-color);
-  }
-
   .decorative_element {
     display: none;
   }

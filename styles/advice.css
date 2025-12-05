@@ -18,6 +18,7 @@
     grid-template-columns: minmax(236px, 1fr) minmax(472px, 2fr);
     grid-template-rows: auto ;
     padding-block-start: var(--padding);
+    gap: 20px;
   }
 
   .section_advice .section_title {
@@ -29,16 +30,12 @@
     grid-column: 2;
   }
 
-  .section_advice .card {
-    grid-column: 2;
-  }
-
 }
 
 
 @media (min-width: 1024px) {
   .section_advice {
     grid-template-columns: 1fr 2.06fr;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: auto;
   }
 }
