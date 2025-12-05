@@ -56,6 +56,6 @@
   outline: none;
 }
 
-.text_link:focus-visible {
+.text_link:focus {
   outline: 1px solid var(--text-color);
 }
