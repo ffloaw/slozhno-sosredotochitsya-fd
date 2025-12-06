@@ -1,8 +1,4 @@
 @media (min-width: 1024px) {
-  .base_section {
-    padding: 0 20px 0 20px;
-  }
-
   .section_concentrate {
     --padding-start: 60px;
     padding-block-start: var(--padding-start);

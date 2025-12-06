@@ -7,11 +7,6 @@
 }
 
 .section_concentrate .section_title {
-  font-weight: var(--font-weight-700);
-  font-style: var(--font-weight-bold);
-  font-size: var(--main-font-size);
-  color: var(--section-title-color);
-  line-height: 23.4px;
   grid-column: 1 / -1;
   padding: 0;
 }

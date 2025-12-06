@@ -15,7 +15,6 @@
   font-family: var(--main-font), monospace;
   font-weight: var(--font-weight-700);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  font-style: var(--font-weight-bold);
   line-height: 83%;
   text-shadow: 2px 2px 0 var(--accent-color);
 }

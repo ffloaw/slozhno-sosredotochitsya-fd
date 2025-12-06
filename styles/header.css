@@ -55,7 +55,6 @@
   font-family: var(--main-font), sans-serif;
   font-weight: var(--font-weight-400);
   font-size: 18px;
-  font-style: var(--font-style);
   line-height: 25px;
   text-align: right;
 }
@@ -80,7 +79,6 @@
   font-family: var(--main-font), sans-serif;
   font-weight: var(--font-weight-700);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  font-style: var(--font-weight-bold);
   line-height: 83%;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
@@ -90,13 +88,13 @@
   max-width: 355px;
   margin-top: 55px;
   padding-bottom: 65px;
+  height: fit-content;
 }
 
 .header_description_text {
   font-family: var(--main-font), sans-serif;
   font-weight: var(--font-weight-700);
   font-size: 18px;
-  font-style: var(--font-weight-bold);
   line-height: 23.4px;
 }
 

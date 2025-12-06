@@ -16,9 +16,11 @@
 @media (min-width: 768px) {
   .section_images {
     --padding: 80px;
+    --padding-mobile: 60px;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding-block-start: var(--padding);
+    padding-block-end: var(--padding-mobile);
   }
 
   .image_title {
