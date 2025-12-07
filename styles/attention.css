@@ -26,13 +26,8 @@
   .section_attention {
     grid-template-columns: 1fr;
     grid-template-rows: max-content 1fr;
-    gap: 0;
+    gap: 20px;
   }
-
-  .section_attention .card {
-    grid-row: 2 / 3;
-  }
-
 
   .card_list_attention {
     display: grid;
